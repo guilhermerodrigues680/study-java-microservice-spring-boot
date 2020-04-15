@@ -20,8 +20,16 @@
 
 ### Docker
 
+- https://spring.io/guides/gs/spring-boot-docker/
+- Gere o compilado jar com: `./mvnw package`
+- Teste a execucao localmente com: `java -jar target/demo-0.0.1-SNAPSHOT.jar`
+- Consulte o dockerfile na documentacao ofical (Já esta incluso neste repositorio)
+- Gere a imagem `docker build -t springio/gs-spring-boot-docker .`
+- Execute a imagem com comandos padroes do Docker
 
+**Docker-compose**
 
+- `docker-compose up`
 
 ### Links
 

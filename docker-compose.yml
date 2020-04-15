@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  demoapi:
+    container_name: demo-spring-boot-docker
+    image: demo-spring-boot-docker:0.0.1
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    build:
+      context: .
+      dockerfile: Dockerfile
