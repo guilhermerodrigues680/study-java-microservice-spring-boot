@@ -1,0 +1,5 @@
+# *Dockerfile linguist-vendored
+*Dockerfile linguist-language=Java
+# *.properties linguist-vendored
+# *.cmd linguist-vendored
+# *.java linguist-detectable=true
